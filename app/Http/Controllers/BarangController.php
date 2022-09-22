@@ -47,6 +47,7 @@ class BarangController extends Controller
                 "nama" => $validated["nama"],
                 "kategori" => $validated["kategori"],
                 "harga" => $validated["harga"],
+                "warna" => $validated["warna"],
             ]);
 
             return response()->json([
@@ -70,6 +71,7 @@ class BarangController extends Controller
                 "nama" => $validated["nama"],
                 "kategori" => $validated["kategori"],
                 "harga" => $validated["harga"],
+                "warna" => $validated["warna"],
             ]);
 
             return response()->json([

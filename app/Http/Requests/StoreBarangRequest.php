@@ -32,6 +32,7 @@ class StoreBarangRequest extends FormRequest
             'nama' => 'required',
             'kategori' => 'required',
             'harga' => 'required|integer|min:0',
+            'warna' => 'required',
         ];
     }
 

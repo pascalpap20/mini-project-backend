@@ -16,6 +16,7 @@ class Barang extends Model
         'nama',
         'kategori',
         'harga',
+        'warna',
     ];
 
     public static function boot()
